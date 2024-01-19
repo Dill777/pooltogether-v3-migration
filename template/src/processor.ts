@@ -8,8 +8,8 @@ export const processor = new EvmBatchProcessor()
     })
     .setFinalityConfirmation(10)
     .setFields({
-        // specify field selection here
+        
     })
     .addLog({
-        address: [/* set of requested addresses */]
+        address: ['0x2E645469f354BB4F5c8a05B3b30A929361cf77eC']
     })

@@ -8,4 +8,13 @@ export class Entity {
 
     @PrimaryColumn_()
     id!: string
+
+    @Column_("bytea", {nullable: false})
+    owner!: Uint8Array
+
+    @Column_("text", {nullable: false})
+    displayName!: string
+
+    @Column_("text", {nullable: false})
+    imageUrl!: string
 }
